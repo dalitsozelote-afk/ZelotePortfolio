@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#0B120F"/>
+  <rect x="80" y="80" width="1040" height="640" rx="32" fill="#121B17" stroke="#2B3A35"/>
+  <rect x="150" y="150" width="390" height="260" rx="18" fill="#172521"/>
+  <rect x="610" y="165" width="320" height="26" rx="13" fill="#63D2A5" fill-opacity="0.9"/>
+  <rect x="610" y="220" width="260" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.9"/>
+  <rect x="610" y="260" width="290" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.7"/>
+  <rect x="610" y="300" width="220" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.5"/>
+  <rect x="150" y="465" width="520" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.8"/>
+  <rect x="150" y="505" width="460" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.55"/>
+  <rect x="150" y="545" width="490" height="18" rx="9" fill="#E7F5EE" fill-opacity="0.35"/>
+  <circle cx="815" cy="500" r="96" fill="#63D2A5" fill-opacity="0.18"/>
+  <path d="M780 530L805 505L835 535L865 480" stroke="#63D2A5" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="710" text-anchor="middle" fill="#E7F5EE" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Project Screenshot Placeholder</text>
+</svg>
