@@ -19,7 +19,7 @@ portfolio_data = {
         "Database fundamentals",
     ],
     "contact": {
-        "email": "ADD_YOUR_EMAIL_HERE",
+        "email": "dalitsozelote@gmail.com",
         "github_url": "ADD_YOUR_GITHUB_URL_HERE",
     },
 }
@@ -30,7 +30,7 @@ project_data = [
         "description": "I worked with a team to develop an all-in-one restaurant menu and food-delivery application using C#. The application helps customers browse restaurant menus, order food online, and receive their orders at home.",
         "technology": "C#",
         "team_project": True,
-        "image": "/static/images/project-placeholder.svg",
+        "image": "/__codex_browser_temporary_files__/6e9e2812-7d80-4af1-908f-5f48ecc6a202/a_close_up_professionally_styled_circular_portra.png",
         "project_type": "Team project",
     }
 ]

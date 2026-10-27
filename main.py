@@ -1,13 +1,17 @@
+from pathlib import Path
+
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from data import portfolio_data, project_data
 
-app = FastAPI(title="Zelote Portfolio", version="1.0.0")
-app.mount("/static", StaticFiles(directory="static"), name="static")
+BASE_DIR = Path(__file__).resolve().parent
 
-templates = Jinja2Templates(directory="templates")
+app = FastAPI(title="Zelote Portfolio", version="1.0.0")
+app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
+
+templates = Jinja2Templates(directory=BASE_DIR / "templates")
 
 
 @app.get("/")

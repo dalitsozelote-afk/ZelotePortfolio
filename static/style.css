@@ -223,6 +223,16 @@ select {
   padding: 2rem;
 }
 
+.profile-photo {
+  width: clamp(9rem, 22vw, 12rem);
+  aspect-ratio: 1;
+  margin: 0 auto 1.5rem;
+  border: 3px solid rgba(99, 160, 255, 0.75);
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 0 7px rgba(99, 160, 255, 0.1), 0 0 28px rgba(99, 160, 255, 0.24), 0 16px 36px var(--shadow);
+}
+
 .card-label {
   margin: 0 0 1rem;
   color: var(--accent-strong);
